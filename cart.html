@@ -93,215 +93,74 @@
 
     </div>
 
-    <section class="filters">
-        <div class="container">
-            <div class="filter_container">
-                <div class="filter_left">
-                    <div class="filter_category">
-                        <input type="checkbox" class="catalog_filter_menu" id="filter">
-                        <label class="filter_btn" for="filter">
-                            <span class="filter_text">filter <img src="img/catalog/catalog_icon.svg" alt="">
-                            </span>
-                        </label>
-                        <ul class="filter_list">
-                            <li class="filter_menu_title">category</li>
-                            <ul class="filter_menu">
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Accessories</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Bags</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Denim</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Hoodies & Sweatshirts</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Jackets & Coats</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Polos</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Shirts</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Shoes</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Sweaters & Knits</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">T-Shirts</a></li>
-                                <li class="filter_sub_item"><a class="menu_link" href="#">Tanks</a></li>
-                            </ul>
-                            <li class="filter_menu_title">brand</li>
-                            <li class="filter_menu_title">designer</li>
 
+    <section class="cart container">
+        <div class="cart_list">
+            <ul class="cart_item">
+                <li class="cart_list_item">
+                    <img src="img/cart/cart1.png" alt="">
 
-                        </ul>
-                    </div>
-                </div>
-                <div class="filter_right">
-                    <div class="filter_tranding">
-                        <span class="filter_right_text">trendin now <img src="img/catalog/filter_icon.svg"
-                                alt=""></span>
-                    </div>
-                    <div class="filter_size">
+                    <ul class="cart_list_description">
+                        <li class="cart_description_item">
+                            mango people t-shirt
+                        </li>
+                        <li class="cart_description_item">Price: <span class="cart_price">$300</span> </li>
+                        <li class="cart_description_item">Color: Red</li>
+                        <li class="cart_description_item">Size: XL</li>
+                        <li class="cart_description_item">Quantity:</li>
+                    </ul>
+                    <button class="cart_item_delete"><img src="img/cart/cross.png" alt=""></button>
+                </li>
+                <li class="cart_list_item">
+                    <img src="img/cart/cart2.png" alt="">
 
-                        <input class="filter_size_checkbox" type="checkbox" id="size">
-                        <label for="size">
-                            <span class="filter_right_text">size
-                                <img src="img/catalog/filter_icon.svg" alt="">
-                            </span>
-                        </label>
-
-                        <div class="filter_size_list">
-                            <input class="size_list" type="checkbox" id="XS_type">
-                            <label class="size_title" for="XS_type">XS</label>
-                            <input class="size_list" type="checkbox" id="S_type">
-                            <label class="size_title" for="S_type">S</label>
-                            <input class="size_list" type="checkbox" id="M_type">
-                            <label class="size_title" for="M_type">M</label>
-                            <input class="size_list" type="checkbox" id="L_type">
-                            <label class="size_title" for="L_type">L</label>
-                        </div>
-                    </div>
-                    <div class="filter_price">
-                        <span class="filter_right_text">price
-                            <img src="img/catalog/filter_icon.svg" alt="">
-                        </span>
-                    </div>
-                </div>
-
-            </div>
+                    <ul class="cart_list_description">
+                        <li class="cart_description_item">
+                            mango people t-shirt
+                        </li>
+                        <li class="cart_description_item">Price: <span class="cart_price">$300</span> </li>
+                        <li class="cart_description_item">Color: Red</li>
+                        <li class="cart_description_item">Size: XL</li>
+                        <li class="cart_description_item">Quantity:</li>
+                    </ul>
+                    <button class="cart_item_delete"><img src="img/cart/cross.png" alt=""></button>
+                </li>
+            </ul>
         </div>
+        <div class="cart_delivery">
+            <div class="cart_delivery_adress">
+                <h2 class="cart_delivery_header">shipping adress</h2>
+    
+                <input class="cart_delivery_input" type="text" value="Bangladesh">
+                <input class="cart_delivery_input" type="text" value="State">
+                <input class="cart_delivery_input" type="text"
+                value="Postcode / Zip">
+                
+                <button class="cart_delivery_button">get a quote</button>
+            </div>
+            <div class="cart_checkout">
+                <p class="checkout_sub">SUB TOTAL $900</p>
+                <p class="checkout_grand">GRAND TOTAL <span class="cart_price">$900</span></p>
+                <button class="checkout_button">PROCEED TO CHECKOUT</button>
+            </div>
+    
+
+        </div>
+        
+    </section>
+    <section class="cart_buttons container">
+        <button class="cart_buttons_item">CLEAR SHOPPING CART</button>
+        <button class="cart_buttons_item">CONTINUE SHOPPING</button>
     </section>
 
 
 
-    <article class="cards container">
-        <ul class="card_list">
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card1.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card2.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card3.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card4.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card5.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card6.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card7.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card8.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="img/card/catalog_cards/card9.png" alt="">
-                <div class="card-flex">
-                    <p class="header_card">ELLERY X M'O CAPSULE</p>
-                    <p class="card_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="card_pink">
-                        $52.00
-                    </p>
-                    <button class="card_button">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                </div>
-            </li>
-        </ul>
-    </article>
 
-    <div class="browse_all">
-        <button class="prefooter__button">Browse All Product</button>
-    </div>
     <div class="prefooter">
         <div class="container">
             <div class="prefooter_content">
                 <div class="delivery">
-                    <img src="img/percs/delivery.svg" alt="delivery">
+                    <img class="prefooter_img" src="img/percs/delivery.svg" alt="delivery">
                     <p class="prefooter_header">Free Delivery</p>
                     <p class="prefooter_text">Worldwide delivery on all. Authorit tively morph</p>
                     <p class="prefooter_text"> next-generation innov tion with extensive models.</p>
